@@ -1,0 +1,232 @@
+*{
+	margin: 0; 
+	left: 0; /*Margen de la derecha*/
+	top: 0; /*Margen de arriba*/
+}
+
+body{
+	background: url('../imagen/fondoL.png');
+	background-size: cover;
+} 
+
+.container{
+	width: 100%;
+	height: 100%;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+.navbar{
+	width: 100%;
+	margin: auto;
+	padding: 5px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: #E2C4F7;
+}
+
+.logo{
+	padding-left: 10px;
+	display: block;
+}
+
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+	transition: all 0.3s;
+
+}
+
+.navbar ul li:hover{
+	background: #CDB7D9;
+	border-left: 8px solid #A373DC;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: #6B4183;
+	font-family: cursive;
+  	font-style: italic;
+}
+
+
+.box-header{
+    padding-top: 10px;
+    padding-left: 93%;
+}
+
+.box-header button{
+	height: 30px;
+	width: 60px;
+	background-color: #8852A2;
+    border: 0px #ffffff solid;
+	color: white;
+	border-radius: 6px;
+	align-items: center;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.box-body{
+	padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+	height: 50px;
+}
+.box-body table{
+    padding-top: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #FAF0FF;
+    padding-bottom: 7px;
+    outline: 1px solid #9477AF;
+    width: 100%;
+	height: 300px;
+}
+
+.box-body h2{
+	font-family: cursive;
+  	font-style: italic;
+	text-align: center; /*Centrar Texto*/
+    margin-top: 1px;
+    font-size: 25px;
+    margin-bottom: 30px;
+	color: #6B4183;
+	margin: 15px 0;
+}
+
+.thead tr{
+	height: 15px;
+	text-align: center;
+	background: #EFCEFF;
+	outline: 1px solid #9477AF;
+}
+
+.thead th{
+	background: #EFCEFF;
+	outline: 1px solid #C9A4EB;
+}
+
+.tbody{
+	height: 15px;
+	text-align: center;
+	outline: 0.5px solid #9477AF;
+}
+
+.tbody tr{
+	height: 15px;
+	text-align: center;
+	outline: 1px solid #C9A4EB;
+}
+
+.tbody td{
+	background: #F6E2FF;
+	outline: 1px solid #C9A4EB;
+}
+
+.tbody a{	
+	font-family: cursive;
+    color: #8852A2;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 40px;
+    display: table-row;
+    transition: all 0.3s;
+}
+
+.tbody a:hover{
+	background: #DFCBF7;
+	border-left: 8px solid #A373DC;
+}
+
+.tbody sr-only{
+	background-image: url(../imagen/padlock.png);
+	text-align: center;
+}
+
+.footer{
+	padding-left: 600px;
+	padding-top: 450px;
+}
+
+
+.container h2{
+	font-family: cursive;
+  	font-style: italic;
+	text-align: center; /*Centrar Texto*/
+    font-size: 25px;
+	color: #6B4183;
+	margin: 15px 0;
+}
+
+.Boton button{
+	height: 40px;
+	width: 90px;
+	background-color: #8852A2;
+    border: 0px #ffffff solid;
+	color: white;
+	border-radius: 6px;
+	align-items: center;
+	font-size: 14px;
+	cursor: pointer;
+
+}
+
+.Boton{
+	padding-left: 630px;
+}
+
+.mb-3{
+	padding-left: 450px;
+    font-size: 14px;
+
+}
+
+.form-control{
+	width: 50%;
+    display: block;
+    color: #333333;
+    border: 1px #ffffff solid;
+    border-radius: 6px;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 13px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.label{ 
+	font-family: cursive;
+  	font-style: italic;
+	text-align: center; /*Centrar Texto*/
+    font-size: 15px;
+	color: #6B4183;
+	margin: 15px 0;
+	padding-left: 120px;
+}
+
+
+.footer2{
+	padding-left: 600px;
+	padding-top: 190px;
+}
+
+.footer3{
+	padding-left: 600px;
+	padding-top: 143px;
+}
+
+.form-label{
+	font-family: cursive;
+  	font-style: italic;
+	text-align: center; /*Centrar Texto*/
+    font-size: 15px;
+	color: #6B4183;
+	margin: 15px 0;
+}

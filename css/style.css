@@ -1,0 +1,100 @@
+*{
+	margin: 0; 
+	left: 0; /*Margen de la derecha*/
+	top: 0; /*Margen de arriba*/
+}
+	
+body{
+	background: url('../imagen/loginL.png');
+	background-size: cover;
+}
+
+.formulario form{
+	display: block;
+    margin: 0 auto;
+    width: 360px;
+    height: 445px;
+    margin-top: 50px;  
+	background-image: url(../imagen/formanag_fondologin.png);
+    background-repeat: no-repeat;
+	padding: 20px;
+}
+
+.formulario{
+		width: 83px;
+		top: 60%;
+		left: 63%;
+		transform: translate(-50%, -50%);
+		position: absolute;
+		color: black;
+
+}
+
+.formulario h2{ /*Estilo del titulo*/
+	font-family: sans-serif;
+	text-align: center; /*Centrar Texto*/
+	font-weight: lighter;
+    margin-top: 5px;
+    font-size: 34px;
+    display: block;
+    margin-bottom: 30px;
+	color: #6B4183;
+	margin: 15px 0;
+}
+
+
+.formanag_user{
+	background-image: url(../imagen/user.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 325px;
+}
+
+.formanag_input{
+	width: 100%;
+    display: block;
+    color: #333333;
+    border: 1px #ffffff solid;
+    border-radius: 6px;
+    font-size: 14px;
+    padding-top: 12px;
+    padding-bottom: 13px;
+    margin-top: 5px;
+    margin-bottom: 28px;
+}
+
+.formanag_password{
+    background-image: url(../imagen/padlock.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 325px;
+}
+
+
+.btn{
+	font-size: 19px;
+	background-color: #8852A2;
+	font-weight: bold;
+	margin: 20px 0;
+	padding: 10px 15px;
+	width: 102%;
+	border-radius: 6px;
+	align-items: center;
+	border: 0px #ffffff solid;
+	color: white;
+}
+.warnings{
+width: 200px;
+text-align: center;
+margin: auto;
+color: #B06AB3;
+padding-top: 20px
+}
+
+.Bregis{
+	width: 200px;
+text-align: center;
+margin: auto;
+color: #B06AB3;
+padding-top: 20px
+}
